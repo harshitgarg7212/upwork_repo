@@ -5,11 +5,11 @@ import { theme } from "theme";
 import "./Header.css";
 
 const Header = () => {
-  const isLessLaptop = useMediaQuery(theme.breakpoints.down("laptop"));
+  const isLessLaptop = useMediaQuery(theme.breakpoints.down("md"));
 
   return (
     <div className="sticky-header">
-      <Container>
+      <Container maxWidth="xl">
         <header>
           <div className="header">
             <div className="header-content">
