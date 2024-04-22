@@ -1,7 +1,6 @@
 export const Modal = {
   styleOverrides: {
     root: {
-      border: "5px solid red",
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
