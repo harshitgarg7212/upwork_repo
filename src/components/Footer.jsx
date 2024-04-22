@@ -48,27 +48,8 @@ const Footer = () => {
         </div>
       </Container>
 
-      <Modal open={contactState} onClose={toggleState}>
-        <div
-          className="modal-content"
-          style={{
-            width: "80%",
-            maxWidth: "500px",
-            margin: "auto",
-            marginTop: "20%",
-            padding: "20px",
-            backgroundColor: "#fff",
-            borderRadius: "5px",
-            display: "flex",
-            justifyContent: "space-between",
-            flexDirection: "column",
-            alignItems: "stretch",
-            color: "black",
-            fontStyle: "Poppins",
-            overflowY: "scroll",
-            height: "400px",
-          }}
-        >
+      <Modal open={contactState} onClose={toggleState} disablePortal>
+        <div className="modal-content">
           <div style={{ display: "flex", justifyContent: "space-between" }}>
             <h2 style={{ fontWeight: "bold" }}>Lorem ipsum</h2>
             <div style={{ textAlign: "right" }}>
