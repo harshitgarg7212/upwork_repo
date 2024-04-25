@@ -47,6 +47,11 @@
     display: flex;
   }
 
+  .lorem-font,
+  .header-btn {
+    font-size: 11px;
+  }
+
   .header {
     height: 8vh;
   }

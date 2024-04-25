@@ -5,7 +5,7 @@ import { theme } from "theme";
 import "./Header.css";
 
 const Header = () => {
-  const isLessLaptop = useMediaQuery(theme.breakpoints.down("md"));
+  const isLessLaptop = useMediaQuery(theme.breakpoints.down("lg"));
 
   return (
     <div className="sticky-header">
@@ -31,7 +31,7 @@ const Header = () => {
               )}
               <div className="header-right-wrap">
                 <div>
-                  <button>Loremips </button>
+                  <button className="header-btn">Loremips </button>
                 </div>
                 <div style={{ color: "black" }} className="lorem-font">
                   Lorem ipsum
